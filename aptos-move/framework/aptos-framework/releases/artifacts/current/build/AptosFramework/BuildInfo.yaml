@@ -99,6 +99,9 @@ compiled_package_info:
       name: SystemAddresses
     : CoreFramework
     ? address: "00000000000000000000000000000001"
+      name: Table
+    : AptosFramework
+    ? address: "00000000000000000000000000000001"
       name: TestCoin
     : AptosFramework
     ? address: "00000000000000000000000000000001"
@@ -128,7 +131,7 @@ compiled_package_info:
     ? address: "00000000000000000000000000000001"
       name: Version
     : CoreFramework
-  source_digest: 4900DCD35D3FF677CD7BD91469543F90D662E7D3D003668CDCDAF01B28078B57
+  source_digest: 495A32EC7AF2B3F5F32C50369F5DF62066D7920726624BDFA7709629784E2EFD
   build_flags:
     dev_mode: false
     test_mode: false
